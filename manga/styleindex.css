@@ -1,0 +1,558 @@
+body{
+   margin: 0;
+background: #222222;
+padding:1px;
+overflow-x:hidden;
+
+ }
+ html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+  }
+
+.wrapper{
+    
+   
+    width: 1920px;
+    height: 3240px;
+    display: flex;
+    flex-direction: column;
+ 
+    overflow: hidden;
+}
+.header{
+    width: 1200px;
+    height: 90px;
+ 
+    margin-left:auto ;
+    margin-right:auto ;
+ 
+}
+.header_content{
+    display: inline-flex;
+    margin-left: 40px;
+    margin-top: 15px;
+ 
+    vertical-align: middle;
+    justify-content: center;
+   
+}
+.header_content:hover{
+ opacity: 75%;
+ scale: 105%;
+   
+}
+ 
+.footer{
+    width: 1500px;
+    height: 300px;
+    margin-top: auto;
+}
+ 
+ .left_menu{
+    margin-top: 30px;
+    margin-left:  120px;
+    width: 300px;
+    height: 1300px;
+    float: left;
+  
+ }
+/* Самое популярное*/
+.mst_pop_wrap{
+   
+    float: left;
+    width: 300px;
+    height: 404px;
+  
+}
+.mst_pop_wrap #show_all{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FF9700;
+}
+ 
+ 
+.mst_pop_item{
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+    background: #EEEEEE;
+    border-radius: 7px;
+
+}
+ 
+.mst_pop_item p{
+ 
+float: right;
+margin-right: 40px;
+margin-top: 35px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 29px;
+}
+ 
+
+
+/* ссылки на соц сети*/
+.sociallinks_wrapper{
+    margin-top: 460px;
+    width: 300px;
+    height: 200px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border: 4px solid #464646;
+    backdrop-filter: blur(8px);
+  
+    
+    border-radius: 15px;
+}
+ 
+.social_links_Form{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width:250px;
+ 
+   
+
+}
+.social_links_Form a{
+    margin-top: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+     
+float: right;
+}
+
+
+
+
+
+/* Новое в катологе*/
+.new_in_catalog_wrap{
+    float: left;
+     margin-top: 100px;
+    width: 300px;
+    height: 404px;
+ 
+}
+ 
+.new_manga_catalog{
+   margin-top: 25px;
+}
+.new_manga_catalog #show_all{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FF9700;
+}
+ 
+.new_manga_catalog_form{
+  
+    margin-top: 5px;
+    width: 300px;
+    height: 100px;
+    background: #EEEEEE;
+ 
+    
+    border-radius: 7px;
+
+}
+.new_cat_item p{
+    text-align: left;
+    float: right;
+ 
+  margin-right: 50px;
+  margin-top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 29px;
+    }
+     
+    
+ 
+
+/* верхняя полоса сейчас*/
+ 
+.titleline{
+   
+    display:flex;
+    width: 1920px;
+    height: 250px;
+ 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("int/planka.jpg");
+}
+ 
+.lineitem{
+ width: 130px;
+    height: 195px;
+    display: flex;
+    margin-top: 10px;
+   margin-left: 150px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+   
+}
+.product{
+   
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+line-height: 29px;
+
+color: #000000;
+  
+}
+
+/* Популярно сейчас*/
+.mangacatalog_wrap{
+    margin-top: 30px;
+    width: 730px;
+    height: 640px;
+    
+   
+     margin-left: auto;
+     margin-right: auto;
+ 
+}
+ 
+.mangacatalog{
+     
+     
+    width: 730px;
+    height: 600px;
+    display:flex;
+     flex-wrap: wrap;
+   
+     margin-left: auto;
+     margin-right: auto;
+  
+}
+ 
+
+.manga_catalogitem{
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.manga_catalogitem:hover{
+   opacity: 75%;
+   scale: 105%;
+ 
+}
+ 
+ 
+
+ 
+
+/* Последние выпуски:*/
+.lasttitles_wrap{
+    margin-top: 40px;
+     
+    width: 730px;
+    height: 640px;
+    
+    
+     margin-left: auto;
+     margin-right: auto;
+    
+}
+ 
+.lasttitles{
+     
+    width: 730px;
+    height: 600px;
+    display:flex;
+     flex-wrap: wrap;
+   
+     margin-left: auto;
+     margin-right: auto;
+  
+}
+.lasttitles_catalogitem{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.lasttitles_catalogitem:hover{
+    opacity: 75%;
+    scale: 105%;
+  
+ }
+  
+ 
+.product h1{
+   
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+color: #EEEEEE;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    
+}
+.product p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #D1D1D1;
+
+    
+}
+
+
+/* комментарии*/
+.comment_wrap{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+width: 1080px;
+height: 450px;
+  
+    padding:1px;
+}
+label{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+     
+    color: #EEEEEE;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.comment_catalog{
+ 
+width: 1080px;
+height: 399px;
+display:flex;
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+ 
+}
+.comment_form{
+  
+    padding:5px;
+  margin-left: 50px;
+    width: 300px;
+    height: 150px;
+ 
+background: #EEEEEE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+.comment_form:hover{
+   opacity: 75%;
+   scale: 105%;
+}
+ 
+.comment_content h1{
+ margin: 0px 0px 0px 80px;
+ 
+ position: relative;
+ bottom: 40px;  
+ 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.comment_content img{
+   height: 50px; 
+   width: 50px; 
+   
+    
+}
+.comment_content p{
+    margin: 00px 0px 00px 20px;
+position: relative;
+ 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+
+}
+
+/* мои реки*/
+.Rec_Form_wrap {
+    padding-top: 40px;
+    width: 1400px;
+    height: 600px;
+ 
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+.rec_ava_wrap{
+    width: 1400px;
+    height: 550px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.Rec_Form_wrap label{
+    font-size: 24px;
+    float: left;
+
+}
+ 
+.Avatars{
+    height:550px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: left;
+    
+ 
+}
+.Avatars img{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    border-radius: 200px;
+}
+.Avatars p{
+ text-align: center;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+    color: #EEEEEE;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+ 
+.rectitles_catalog{
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    width: 1300px;
+     height: 550px;
+ 
+}
+
+.reccatalogitems{
+     
+    width: 150px;
+    height: 240px;
+   
+    margin-top: 20px;
+    margin-left: 40px;
+   float: right;
+   padding-right: 20px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+
+border-radius: 5px;
+    
+}
+
+.reccatalogitems:hover{
+    opacity: 75%;
+    scale: 105%;
+}
+.reccatalogitems h1{
+ 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+color: #EEEEEE;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+ 
+
+/* Подвал сайта */
+ 
+.footer_content{
+    
+    display: flex;
+   
+}
+.footer{
+    width: 1500px;
+    height: 300px;
+     
+    margin-top: auto;
+    margin-left:auto ;
+    margin-right:auto ;
+ 
+    background: #000000;
+    border-radius: 50px 50px 0px 0px;
+ }
+ 
+ .footer_content{
+ 
+    margin-left:100px;
+ 
+ }
+ .razdeli{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 60px;
+    margin-left: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 29px;
+    color: #000000;
+ }
+ .rearch_result_wrap{
+    margin-left: 200px;
+    width: 730px;
+    height: 600px;
+    display:flex;
+     flex-wrap: wrap;
+   
+ }

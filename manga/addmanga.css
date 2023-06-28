@@ -1,0 +1,101 @@
+body{
+   
+    background: #222222;
+    padding: 0;
+     margin: 0;
+}
+
+
+.header{
+    width: 1000px;
+    height: 90px;
+ 
+    margin-left:auto ;
+    margin-right:auto ;
+}
+.header_content{
+    display: inline-flex;
+    margin-left: 40px;
+    margin-top: 15px;
+ 
+    vertical-align: middle;
+    justify-content: center;
+   
+}
+.header_content:hover{
+ opacity: 75%;
+ scale: 105%;
+   
+}
+.lines_wrap{
+    margin-top: 30px;
+    border: solid;
+    margin-left: 400px;
+    width: 400px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right:auto ;
+    color: aliceblue;
+
+}
+.lines_content{
+    display:flex; flex-wrap: wrap;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.line_item{
+    padding: 10px;
+    margin-left: 50px;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right:auto ;
+ 
+font-family: 'Inter';
+font-style: normal;
+ 
+line-height: 29px;
+
+/* identical to box height */
+
+ 
+    
+background: #393939;
+border: 5px solid #616161;
+border-radius: 15px;
+
+    
+}
+.line_item input{
+    border: unset;  border-bottom: 2px solid  #e3e3e3;  outline: none;  background:none; color: aliceblue;
+    
+}
+.line_item select{
+    border: unset;  border-bottom: 2px solid  #e3e3e3;  outline: none;  background:none; color: aliceblue;
+    
+}
+.submit{
+    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right:auto ;
+    width: 200px;
+height: 50px;
+ 
+border-radius: 15px;
+}
+.submit button{
+    margin-left: auto;
+    margin-right:auto ;
+    width: 200px;
+    height: 50px;
+  
+    width:100%;
+    background: #EEEEEE;
+    border-radius: 15px;
+    
+}
+.submit button:hover{
+  scale: 105%;
+  opacity: 75%;
+    
+}

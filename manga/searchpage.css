@@ -1,0 +1,171 @@
+body{
+    position: absolute;
+width: 1920px;
+height: 3240px;
+
+background: #222222;
+ }
+ a{
+    text-decoration:none;
+ }
+ 
+  #stick1{
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 685px;
+    top: 40px;
+    
+    background: rgba(238, 238, 238, 0.2);
+    border-radius: 1.5px;
+}
+ #stick2{
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 844px;
+    top: 40px;
+    
+    background: rgba(238, 238, 238, 0.2);
+    border-radius: 1.5px;
+}
+#stick3{
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 1023px;
+    top: 40px;
+    
+    background: rgba(238, 238, 238, 0.2);
+    border-radius: 1.5px;
+}
+
+  #siteicon{
+    position: absolute;
+    width: 65px;
+    height: 55px;
+    left: 325px;
+    top: 25px;
+    
+}
+#siteicon:hover{
+    opacity: 50%;
+    scale: 105%;
+    
+}
+  #catalog{
+
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 721px;
+    top: 38px;
+}
+#catalog:hover{
+    opacity: 50%;
+    scale: 105%;
+    
+}
+  #readed{
+
+    position: absolute;
+    width: 108px;
+    height: 20px;
+    left: 880px;
+    top: 40px;
+    
+}
+#readed:hover{
+
+    opacity: 50%;
+    scale: 105%;
+    
+}
+.seachbox {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 1120px;
+    top: 30px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #464646;
+    border-radius: 20px;
+    
+}
+
+  #textbox {
+    background: transparent;
+    border: none;
+    visibility: visible;
+    width: 400px;
+    height: 40px;
+    left: 1120px;
+    top: 30px;
+    text-align: center;
+    font-size: 16px;
+   
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #EEEEEE;
+
+opacity: 0.5;
+font-family: 'Inter', sans-serif;
+
+}
+
+  #seachbt{
+
+    
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1140px;
+    top: 30px;
+background: transparent;
+border: none;
+
+}
+
+.mangacatalog{
+    padding-left: 400px;
+    padding-top: 200px;
+     
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+   
+    line-height: 24px;
+}
+.manga_title{
+    font-size: 18px;
+ } 
+ 
+#rearch_result_label{
+    position: relative;
+    width: 252px;
+    height: 29px;
+    left: 323px;
+    top: 130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #EEEEEE;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
